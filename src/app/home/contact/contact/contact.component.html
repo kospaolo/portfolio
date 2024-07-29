@@ -1,0 +1,32 @@
+<div class="main-wrapper" id="contact">
+  <div class="container">
+    <div class="left-section">
+      <div class="text-wrapper">
+        <h1>Let’s work together on your next project!</h1>
+        <p>
+          Feel free to reach out to me for any inquiries or collaborations—I'm
+          excited to connect and explore new opportunities together!
+        </p>
+      </div>
+    </div>
+    <div class="right-section">
+      <div class="form-wrapper">
+        <form (ngSubmit)="onSubmit()" [formGroup]="contactForm">
+          <div class="inputs">
+            <input type="text" formControlName="name" placeholder="Name" />
+            <input type="email" formControlName="email" placeholder="E-Mail" />
+            <textarea
+              class="question-input"
+              formControlName="question"
+              placeholder="Question"
+            ></textarea>
+            <button type="submit">SUBMIT</button>
+          </div>
+        </form>
+        <div *ngIf="isLoading">Sending...</div>
+        <div *ngIf="isSubmitted">Thank you! Your message has been sent.</div>
+        <div *ngIf="errorMessage">{{ errorMessage }}</div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <div class="navbar">
+    <div class="hamburger" (click)="toggleMenu()">
+      &#9776;
+    </div>
+    <div class="navbar-items" [ngClass]="{'active': menuOpen}">
+      <div class="close-button" (click)="toggleMenu()">
+        &times;
+      </div>
+      <h4 class="item" (click)="scrollToSection('about')">ABOUT</h4>
+      <h4 class="item" (click)="scrollToSection('skills')">SKILLS</h4>
+      <h4 class="item" (click)="scrollToSection('projects')">PROJECTS</h4>
+      <h4 class="item" (click)="scrollToSection('contact')">CONTACT</h4>
+    </div>
+  </div>
+</div>
