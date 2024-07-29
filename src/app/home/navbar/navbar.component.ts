@@ -16,7 +16,7 @@ export class NavbarComponent {
   }
 
   scrollToSection(sectionId: string) {
-    this.viewportScroller.scrollToAnchor(sectionId);
     this.menuOpen = false;
+    this.viewportScroller.scrollToAnchor(sectionId);
   }
 }
