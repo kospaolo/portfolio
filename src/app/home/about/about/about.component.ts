@@ -21,7 +21,7 @@ export class AboutComponent {
   downloadCV() {
     const link = document.createElement('a');
     link.href =
-      'https://drive.google.com/uc?export=download&id=1JYAa0_Chn4cTISFIIjYONGHBCwR01_eR';
+      'https://drive.google.com/uc?export=download&id=1JshBeD2cZyB73pn0saNrPak-V0FoFcfC';
     link.download = '';
     document.body.appendChild(link);
     link.click();
