@@ -17,7 +17,7 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 - GSAP
 - EmailJS
   
-## RUN a project
+## Run a project
 
 To run this project locally:
 
