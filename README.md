@@ -6,7 +6,7 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 
 - Responsive Design: Optimized for all devices.
 - Project Showcase: Highlights my projects.
-- Experience Timeline: Shows my education and work experience.
+- Experience Timeline: Shows my work experience.
 - About Me: Overview of my background and skills.
 - Contact Form: Allows visitors to contact me.
   
