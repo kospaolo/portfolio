@@ -1,10 +1,10 @@
-<div class="wrapper">
-  <nav class="navbar navbar-expand-sm">
+<header class="wrapper">
+  <nav class="navbar navbar-expand-sm" role="navigation">
 
     <div class="logo-container me-auto text-center d-sm-none">
-      <p class="logo">
+      <h1 class="logo">
         <span>paolo</span>kos
-      </p>
+      </h1>
     </div>
 
     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,27 +16,27 @@
         <!-- Left Section -->
         <li class="nav-item">
           <div class="left-section d-flex justify-content-start">
-            <span>Skills</span>
-            <span>My Work</span>
+            <a href="#skills" title="View my skills">Skills</a>
+            <a href="#my-work" title="See examples of my work">My Work</a>
           </div>
         </li>
 
         <!-- Middle Section -->
         <li class="nav-item mx-auto d-none d-sm-block">
           <div class="middle-section text-center">
-            <p class="logo">
+            <h1 class="logo">
               <span>paolo</span>kos
-            </p>
+            </h1>
           </div>
         </li>
 
         <!-- Right Section -->
         <li class="nav-item">
           <div class="right-section d-flex justify-content-end">
-            <span>Get In Touch</span>
+            <span (click)="copyToClipboard('kos.paolo@gmail.com')">Get In Touch</span>
           </div>
         </li>
       </ul>
     </div>
   </nav>
-</div>
+</header>
