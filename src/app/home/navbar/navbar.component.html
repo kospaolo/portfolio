@@ -1,16 +1,42 @@
 <div class="wrapper">
-  <div class="navbar">
-    <div class="hamburger" (click)="toggleMenu()">
-      &#9776;
+  <nav class="navbar navbar-expand-sm">
+
+    <div class="logo-container me-auto text-center d-sm-none">
+      <p class="logo">
+        <span>paolo</span>kos
+      </p>
     </div>
-    <div class="navbar-items" [ngClass]="{'active': menuOpen}">
-      <div class="close-button" (click)="toggleMenu()">
-        &times;
-      </div>
-      <h4 class="item" (click)="scrollToSection('about')">ABOUT</h4>
-      <h4 class="item" (click)="scrollToSection('skills')">SKILLS</h4>
-      <h4 class="item" (click)="scrollToSection('projects')">PROJECTS</h4>
-      <h4 class="item" (click)="scrollToSection('contact')">CONTACT</h4>
+
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav w-100">
+        <!-- Left Section -->
+        <li class="nav-item">
+          <div class="left-section d-flex justify-content-start">
+            <span>Skills</span>
+            <span>My Work</span>
+          </div>
+        </li>
+
+        <!-- Middle Section -->
+        <li class="nav-item mx-auto d-none d-sm-block">
+          <div class="middle-section text-center">
+            <p class="logo">
+              <span>paolo</span>kos
+            </p>
+          </div>
+        </li>
+
+        <!-- Right Section -->
+        <li class="nav-item">
+          <div class="right-section d-flex justify-content-end">
+            <span>Get In Touch</span>
+          </div>
+        </li>
+      </ul>
     </div>
-  </div>
+  </nav>
 </div>

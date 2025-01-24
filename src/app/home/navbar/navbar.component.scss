@@ -1,99 +1,96 @@
-.navbar {
-  position: relative;
+@import 'src/styles/variables';
+
+.navbar-nav {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+
+  @media (max-width: 480px) {
+    gap: .5rem;
+    padding: .5rem;
+  }
 }
 
-.navbar-items {
+.left-section {
   display: flex;
-  justify-content: flex-end;
-  gap: 20px;
-  padding: 0 50px;
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-  transform: translateY(0);
-  opacity: 1;
+  gap: 10px;
 }
 
-.item {
-  cursor: pointer;
-  position: relative;
-  font-size: 16px;
-  font-weight: normal;
+.middle-section {
+  flex-grow: 1;
 }
 
-.item::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  background-color: #ffffff;
-  transition: width 0.3s ease-in-out;
+.right-section {
+  display: flex;
+  gap: 10px;
 }
 
-.item:hover::after {
-  width: 100%;
+.logo {
+  font-family: "Source Serif", serif;
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+  color: $primaryHeadlineColor;
+
+  span {
+    color: $secondaryHeadlineColor;
+    font-weight: 600;
+    letter-spacing: 0.10em;
+    cursor: pointer;
+  }
 }
 
-.hamburger {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  padding: 10px 20px;
+.left-section, .right-section {
+  span {
+    font-family: "Lato", sans-serif;
+    color: $secondaryHeadlineColor;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    letter-spacing: 0.02em;
+    cursor: pointer;
+  }
 }
 
-.close-button {
-  display: none;
-  font-size: 40px;
-  cursor: pointer;
-  padding: 10px 20px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: #ffffff;
-}
+.left-section {
+  display: flex;
+  gap: 1.875rem;
 
-@media (max-width: 768px) {
-  .navbar-items {
+  span {
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: currentColor;
+      transition: width 0.3s ease-in-out;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    padding: 20% 0;
-    gap: 0;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-
-  .navbar-items.active {
-    transform: translateY(0);
-    opacity: 1;
-  }
-
-  .hamburger {
-    display: block;
-  }
-
-  .close-button {
-    display: block;
-  }
-
-  .item {
-    font-size: 24px;
-    color: #ffffff;
-    margin: 20px 0;
+    gap: .5rem;
   }
 }
 
-@media (max-width: 480px) {
-  .item {
-    font-size: 20px;
+.right-section {
+  span {
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: currentColor;
+    }
   }
 }
