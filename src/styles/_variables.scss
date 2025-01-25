@@ -1,4 +1,50 @@
+// BACKGROUND
 $backgroundColor: #ffffff;
-$textColor: #000000;
+
+// MARGINS
+$sectionMargin: clamp(5rem, 10vw, 7.5rem);; // 120px
+$biggestMargin: clamp(2.5rem, 5vw, 3.75rem); // 60px
+$middleMargin: clamp(1rem, 3vw, 1.875rem); // 30px
+$smallestMargin: clamp(1rem, 2vw, 1.25rem); // 20px
+
+// PADDINGS
+$biggestPadding: clamp(2.5rem, 5vw, 3.75rem); // 60px
+$middlePadding: clamp(1rem, 3vw, 1.875rem); // 30px
+$smallestPadding: clamp(1rem, 2vw, 1.25rem); // 20px
+
+// LOGO
+$logoFontFamily: "Source Serif", serif;
+$logoFontSize: clamp(1.5rem, 2vw, 2.5rem); // 40px;
+$logoFontWeight: 600;
+$logoLetterSpacing: 0.10em;
+
+// HEADLINE
+$headlineFontFamily: "Nunito Sans", sans-serif;
 $primaryHeadlineColor: rgba(0, 0, 0, 0.6);
 $secondaryHeadlineColor: #1E2247;
+$headlineLetterSpacing: 0.03em;
+$headlineFontSize: clamp(2.5rem, 4vw, 3.125rem); // 50px;
+$headlineFontWeight: bold;
+
+// SUBHEADLINE
+$subheadlineFontFamily: "Lato Bold", sans-serif;
+$primarySubheadlineColor: #1E2247;
+$subheadlineLetterSpacing: 0.03em;
+$subheadlineFontSize: clamp(1rem, 3vw, 1.875rem); // 30px;
+
+// TEXT
+$textFontFamily: "Lato Regular", sans-serif;
+$textFontSize: clamp(1rem, 2vw, 1.25rem); // 20px
+$textLetterSpacing: 0.02em;
+$textLineHeight: 1.875rem;
+$textColor: #000000;
+
+// BUTTON
+$buttonBorder: 1px solid rgba(0, 0, 0, 0.6);
+$buttonTextColor: #000000;
+$buttonFontSize: clamp(1rem, 2vw, 1.25rem); // 20px
+$buttonFontFamily: "Lato Regular", sans-serif;
+$buttonLetterSpacing: 0.02em;
+$buttonPadding: clamp(0.75rem, 1vw, 0.8125rem) 0; // 13px 0;
+$buttonBorderRadius: 30px;
+$buttonWidth: 190px;

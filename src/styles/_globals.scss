@@ -15,7 +15,7 @@ html {
 body {
   background: $backgroundColor;
   color: $textColor;
-  font-family: "Lato Regular", sans-serif;
+  font-family: $textFontFamily;
 }
 
 p {
@@ -30,5 +30,76 @@ a {
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1162px !important;
+  }
+}
+
+.row > *, .navbar {
+  padding: unset;
+  margin: unset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: unset;
+}
+
+.top-wrapper {
+  margin-top: $biggestMargin;
+}
+
+.section-wrapper {
+  margin-top: $sectionMargin;
+}
+
+.skills-second-section {
+  margin-top: $biggestMargin;
+}
+
+.top-wrapper, .section-wrapper {
+
+  .headline {
+    font-family: $headlineFontFamily;
+    font-size: $headlineFontSize;
+    font-weight: $headlineFontWeight;
+    letter-spacing: $headlineLetterSpacing;
+    color: $primaryHeadlineColor;
+
+    .highlight {
+      color: $secondaryHeadlineColor;
+    }
+  }
+
+  .text-section {
+    display: flex;
+    flex-direction: column;
+
+    .subheadline {
+      font-family: $subheadlineFontFamily;
+      font-size: $subheadlineFontSize;
+      letter-spacing: $subheadlineLetterSpacing;
+      color: $primarySubheadlineColor;
+      margin-top: $middleMargin !important;
+    }
+
+    .text {
+      font-family: $textFontFamily;
+      line-height: $textLineHeight;
+      letter-spacing: $textLetterSpacing;
+      font-size: $textFontSize;
+      margin-top: $middleMargin !important;
+    }
+
+    .button {
+      font-family: $buttonFontFamily;
+      color: $buttonTextColor;
+      letter-spacing: $buttonLetterSpacing;
+      border: $buttonBorder;
+      font-size: $buttonFontSize;
+      padding: $buttonPadding;
+      border-radius: $buttonBorderRadius;
+      max-width: $buttonWidth;
+      width: 100%;
+      text-align: center;
+      margin-top: $middleMargin !important;
+    }
   }
 }

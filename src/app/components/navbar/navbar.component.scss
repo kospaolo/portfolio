@@ -1,12 +1,15 @@
 @import '../../../styles/variables';
 
+.navbar {
+  margin-top: $middleMargin;
+}
+
 .navbar-nav {
   display: flex;
   align-items: center;
 
   @media (max-width: 480px) {
     gap: .5rem;
-    padding: .5rem;
   }
 }
 
@@ -25,24 +28,24 @@
 }
 
 .logo {
-  font-family: "Source Serif", serif;
-  font-size: clamp(1.5rem, 2vw, 2.5rem);
+  font-family: $logoFontFamily;
+  font-size: $logoFontSize;
   color: $primaryHeadlineColor;
 
   span {
     color: $secondaryHeadlineColor;
-    font-weight: 600;
-    letter-spacing: 0.10em;
+    font-weight: $logoFontWeight;
+    letter-spacing: $logoLetterSpacing;
     cursor: pointer;
   }
 }
 
 .left-section, .right-section {
   a, span {
-    font-family: "Lato", sans-serif;
+    font-family: $textFontFamily;
     color: $secondaryHeadlineColor;
-    font-size: clamp(1rem, 2vw, 1.25rem);
-    letter-spacing: 0.02em;
+    font-size: $textFontSize;
+    letter-spacing: $textLetterSpacing;
     cursor: pointer;
   }
 }
