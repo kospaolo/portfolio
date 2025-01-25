@@ -1,0 +1,21 @@
+[
+  {
+    "id": "invokos",
+    "title": "InvoKos",
+    "kicker": "Invoice Management System",
+    "short_description": "Invoicing solution designed to streamline billing and financial management with ease.",
+    "description": "Custom invoice management system I developed for personal use, supporting dual languages (English and Croatian). Built with Angular, Node.js, and Firebase, it streamlines invoicing and offer management with features like creating, updating, and deleting invoices/offers, customer management, and generating branded PDFs using jsPDF. While the app can and will be improved, I'm proud that it successfully fulfills its intended purpose. It is responsive, secure, and customizable for business needs.",
+    "media": [
+      {
+        "fullPath": "assets/images/invokos/logo.png",
+        "altText": "InvoKos logo"
+      },
+      {
+        "fullPath": "assets/images/invokos/app.png",
+        "altText": "InvoKos image"
+      }
+    ],
+    "github_link": "https://github.com/kospaolo/invokos",
+    "live_demo": ""
+  }
+]
