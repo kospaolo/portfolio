@@ -27,8 +27,8 @@
       <div class="col-md-6 image-section right-section">
         <div class="image-placeholder d-flex justify-content-center align-items-center">
           <img
-            [src]="project.media?.length ? project.media[0].fullPath : 'assets/default-placeholder.jpg'"
-            [alt]="project.media?.length ? project.media[0].altText : 'Default project preview'"
+            [src]="project.media.length ? project.media[0].fullPath : ''"
+            [alt]="project.media.length ? project.media[0].altText : 'Project preview'"
             class="img-fluid"
           />
         </div>

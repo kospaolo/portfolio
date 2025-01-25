@@ -13,9 +13,10 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { MyWorkComponent } from './components/my-work/my-work.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ProjectComponent } from './pages/project/project.component';
 import {NgOptimizedImage} from "@angular/common";
 import {HttpClientModule} from "@angular/common/http";
+import {ProjectComponent} from "./pages/project/project.component";
+import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {HttpClientModule} from "@angular/common/http";
     MyWorkComponent,
     ContactComponent,
     FooterComponent,
-    ProjectComponent
+    ProjectComponent,
+    ProjectDetailsComponent
   ],
   imports: [
     BrowserModule,
