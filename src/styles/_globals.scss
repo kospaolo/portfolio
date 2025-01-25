@@ -72,6 +72,14 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
 
+    .kicker {
+      font-family: $kickerFontFamily;
+      letter-spacing: $kickerLetterSpacing;
+      font-size: $kickerFontSize;
+      color: $primaryKickerColor;
+      margin-bottom: $smallestMargin;
+    }
+
     .subheadline {
       font-family: $subheadlineFontFamily;
       font-size: $subheadlineFontSize;

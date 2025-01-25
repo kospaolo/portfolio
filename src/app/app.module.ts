@@ -10,6 +10,7 @@ import { HeroComponent } from './components/hero/hero.component';
 import {ToastrModule} from "ngx-toastr";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { SkillsComponent } from './components/skills/skills.component';
+import { MyWorkComponent } from './components/my-work/my-work.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     HomeComponent,
     NavbarComponent,
     HeroComponent,
-    SkillsComponent
+    SkillsComponent,
+    MyWorkComponent
   ],
   imports: [
     BrowserModule,
