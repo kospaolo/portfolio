@@ -115,6 +115,5 @@
   },
   "cli": {
     "analytics": false
-  },
-  "outputHashing": "all"
+  }
 }
