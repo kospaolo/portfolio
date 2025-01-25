@@ -4,43 +4,17 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 
 ## Features
 
-- Responsive Design: Optimized for all devices.
-- Project Showcase: Highlights my projects.
-- Experience Timeline: Shows my work experience.
-- About Me: Overview of my background and skills.
-- Contact Form: Allows visitors to contact me.
-  
+- **Responsive Design**: Optimized for all devices.
+- **Project Showcase**: Highlights my projects.
+- **Experience Timeline**: Displays my work experience visually.
+- **About Me**: Provides an overview of my background and skills.
+- **Contact Form**: Enables visitors to contact me directly.
+
 ## Technologies Used
 
-- Angular
-- Typescript
-- GSAP
-- EmailJS
-  
-## Run a project
+- **Angular**
+- **TypeScript**
 
-To run this project locally:
+---
 
-1. **Clone the repository:**
-   
-```bash
-git clone https://github.com/kospaolo/portfolio.git
-```
-
-2. **Navigate to the project directory:**
-   
-```bash
-cd portfolio
-```
-
-3. **Install dependencies:**
-   
-```bash
-npm install
-```
-
-4. **Run the project**
-
-```bash
-ng serve
-```
+Feel free to explore and provide feedback! 😊
