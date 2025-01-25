@@ -11,6 +11,11 @@ import {ToastrModule} from "ngx-toastr";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { SkillsComponent } from './components/skills/skills.component';
 import { MyWorkComponent } from './components/my-work/my-work.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ProjectComponent } from './pages/project/project.component';
+import {NgOptimizedImage} from "@angular/common";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -19,7 +24,10 @@ import { MyWorkComponent } from './components/my-work/my-work.component';
     NavbarComponent,
     HeroComponent,
     SkillsComponent,
-    MyWorkComponent
+    MyWorkComponent,
+    ContactComponent,
+    FooterComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +40,8 @@ import { MyWorkComponent } from './components/my-work/my-work.component';
       positionClass: 'toast-top-right',
       preventDuplicates: true,
     }),
+    NgOptimizedImage,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

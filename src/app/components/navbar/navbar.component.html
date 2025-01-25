@@ -33,7 +33,15 @@
         <!-- Right Section -->
         <li class="nav-item">
           <div class="right-section d-flex justify-content-end">
-            <span (click)="copyToClipboard('kos.paolo@gmail.com')">Get In Touch</span>
+            <span
+              (click)="copyToClipboard('kos.paolo@gmail.com')"
+              class="tooltip-trigger"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Copy Email to Clipboard"
+            >
+              Get In Touch
+            </span>
           </div>
         </li>
       </ul>

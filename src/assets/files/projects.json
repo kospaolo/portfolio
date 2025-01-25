@@ -1,0 +1,14 @@
+[
+  {
+    "id": "invokos",
+    "title": "InvoKos",
+    "short_description": "Invoice Management System",
+    "description": "Invoicing solution designed to streamline billing and financial management with ease.",
+    "media": [
+      {
+        "fullPath": "assets/images/invokos/logo.png",
+        "altText": "InvoKos logo"
+      }
+    ]
+  }
+]

@@ -42,20 +42,19 @@ h1, h2, h3, h4, h5, h6 {
   margin: unset;
 }
 
-.top-wrapper {
-  margin-top: $biggestMargin;
-}
-
 .section-wrapper {
   margin-top: $sectionMargin;
 }
 
-.skills-second-section {
-  margin-top: $biggestMargin;
+.left-section {
+  padding-right: $rightPadding;
+}
+
+.right-section {
+  padding-left: $leftPadding;
 }
 
 .top-wrapper, .section-wrapper {
-
   .headline {
     font-family: $headlineFontFamily;
     font-size: $headlineFontSize;
@@ -71,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   .text-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     .kicker {
       font-family: $kickerFontFamily;
@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: $kickerFontSize;
       color: $primaryKickerColor;
       margin-bottom: $smallestMargin;
+      margin-top: $middleMargin;
     }
 
     .subheadline {
@@ -85,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: $subheadlineFontSize;
       letter-spacing: $subheadlineLetterSpacing;
       color: $primarySubheadlineColor;
-      margin-top: $middleMargin !important;
+      margin-top: $middleMargin;
     }
 
     .text {
@@ -94,6 +95,21 @@ h1, h2, h3, h4, h5, h6 {
       letter-spacing: $textLetterSpacing;
       font-size: $textFontSize;
       margin-top: $middleMargin !important;
+
+      a {
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: currentColor;
+        }
+      }
     }
 
     .button {
@@ -108,6 +124,17 @@ h1, h2, h3, h4, h5, h6 {
       width: 100%;
       text-align: center;
       margin-top: $middleMargin !important;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+
+      &:hover {
+        background-color: $buttonHoverBackgroundColor;
+        color: $buttonHoverTextColor;
+      }
     }
+
   }
 }

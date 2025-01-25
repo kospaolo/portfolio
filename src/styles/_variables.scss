@@ -11,6 +11,8 @@ $smallestMargin: clamp(1rem, 2vw, 1.25rem); // 20px
 $biggestPadding: clamp(2.5rem, 5vw, 3.75rem); // 60px
 $middlePadding: clamp(1rem, 3vw, 1.875rem); // 30px
 $smallestPadding: clamp(1rem, 2vw, 1.25rem); // 20px
+$leftPadding: clamp(0.625rem, 3vw, 0.9375rem); // 15px
+$rightPadding: clamp(0.625rem, 3vw, 0.9375rem); // 15px
 
 // LOGO
 $logoFontFamily: "Source Serif", serif;
@@ -54,3 +56,11 @@ $buttonLetterSpacing: 0.02em;
 $buttonPadding: clamp(0.75rem, 1vw, 0.8125rem) 0; // 13px 0;
 $buttonBorderRadius: 30px;
 $buttonWidth: 190px;
+$buttonHoverTextColor: #000000;
+$buttonHoverBackgroundColor: #f4f4f4;
+
+// FOOTER
+$footerTextColor: rgba(0, 0, 0, 0.6);
+$footerTextSize: clamp(1rem, 2vw, 1.25rem);
+$footerFontFamily: "Lato Regular", sans-serif;
+$footerLetterSpacing: 0.02em;

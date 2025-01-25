@@ -1,0 +1,15 @@
+@import '../../../styles/variables';
+
+.footer-wrapper {
+  padding-bottom: $middlePadding;
+
+  .footer-container {
+    p {
+      color: $footerTextColor;
+      font-size: $footerTextSize;
+      font-family: $footerFontFamily;
+      letter-spacing: $footerLetterSpacing;
+    }
+  }
+}
+
