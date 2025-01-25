@@ -20,15 +20,13 @@ export class ProjectDetailsComponent implements OnInit {
         next: (project) => {
           this.project = project;
           if (!project) {
-            console.error('Project not found!');
+            alert('Project not found!');
           }
         },
         error: (error) => {
           console.error('Error loading project:', error);
         },
-        complete: () => {
-          console.log('Project fetch completed.');
-        },
+        complete: () => {},
       });
     }
   }

@@ -10,11 +10,11 @@
     <div class="row project-row" *ngFor="let project of projects">
       <!-- Left Section: Text Content -->
       <div class="col-md-6 text-section left-section">
-        <h3 class="kicker">{{ project.short_description }}</h3>
+        <h3 class="kicker">{{ project.kicker }}</h3>
         <h2 class="subheadline">
           {{ project.title }}
         </h2>
-        <p class="text">{{ project.description }}</p>
+        <p class="text">{{ project.short_description }}</p>
         <a
           [routerLink]="['/project', project.id]"
           class="button"

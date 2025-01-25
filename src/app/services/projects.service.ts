@@ -5,9 +5,12 @@ import {map, Observable} from "rxjs";
 export interface Project {
   id: string;
   title: string;
+  kicker: string;
   short_description: string;
   description: string;
-  media: [{ fullPath: string, altText: string }];
+  media: any[];
+  github_link: string;
+  live_demo: string;
 }
 
 @Injectable({
@@ -23,7 +26,6 @@ export class ProjectsService {
   }
 
   getProjectById(id: string): Observable<Project | undefined> {
-    console.log(id);
     return this.getProjects().pipe(
       map((projects) => projects.find((project) => project.id === id))
     );

@@ -111,30 +111,29 @@ h1, h2, h3, h4, h5, h6 {
         }
       }
     }
+  }
 
-    .button {
-      font-family: $buttonFontFamily;
-      color: $buttonTextColor;
-      letter-spacing: $buttonLetterSpacing;
-      border: $buttonBorder;
-      font-size: $buttonFontSize;
-      padding: $buttonPadding;
-      border-radius: $buttonBorderRadius;
-      max-width: $buttonWidth;
-      width: 100%;
-      text-align: center;
-      margin-top: $middleMargin !important;
-      position: relative;
-      overflow: hidden;
-      cursor: pointer;
-      text-decoration: none;
-      transition: background-color 0.3s ease, color 0.3s ease;
+  .button {
+    font-family: $buttonFontFamily;
+    color: $buttonTextColor;
+    letter-spacing: $buttonLetterSpacing;
+    border: $buttonBorder;
+    font-size: $buttonFontSize;
+    padding: $buttonPadding;
+    border-radius: $buttonBorderRadius;
+    max-width: $buttonWidth;
+    width: 100%;
+    text-align: center;
+    margin-top: $middleMargin !important;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 
-      &:hover {
-        background-color: $buttonHoverBackgroundColor;
-        color: $buttonHoverTextColor;
-      }
+    &:hover {
+      background-color: $buttonHoverBackgroundColor;
+      color: $buttonHoverTextColor;
     }
-
   }
 }

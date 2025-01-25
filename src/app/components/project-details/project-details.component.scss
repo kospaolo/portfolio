@@ -1,0 +1,14 @@
+@import '../../../styles/variables';
+
+.project-title, .project-description {
+  text-align: center;
+}
+
+.project-description {
+  margin-top: $middleMargin;
+  margin-bottom: $middleMargin;
+  color: $mutedBlack;
+  line-height: $textLineHeight;
+  text-align: center;
+  letter-spacing: $textLetterSpacing;
+}

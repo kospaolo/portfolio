@@ -31,12 +31,12 @@
   font-family: $logoFontFamily;
   font-size: $logoFontSize;
   color: $primaryHeadlineColor;
+  cursor: pointer;
 
   span {
     color: $secondaryHeadlineColor;
     font-weight: $logoFontWeight;
     letter-spacing: $logoLetterSpacing;
-    cursor: pointer;
   }
 }
 

@@ -2,10 +2,59 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-2"></div>
-      <div class="col-md-8">
+      <div class="col-md-8 project-title">
         <h2 class="headline">
-          <span class="highlight"></span>
+          <span class="highlight">{{ project?.title }}</span>
         </h2>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 project-description">
+        <p>{{ project?.description }}</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="image-placeholder d-flex justify-content-center align-items-center">
+          <img
+            [src]="project?.media?.[1]?.fullPath ?? ''"
+            [alt]="project?.media?.[1]?.altText ?? 'Default project preview'"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="image-placeholder d-flex justify-content-center align-items-center gap-2">
+          <a
+            *ngIf="project?.github_link"
+            [href]="project?.github_link"
+            class="button"
+            aria-label="See this project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <a
+            *ngIf="project?.live_demo"
+            [href]="project?.live_demo"
+            class="button"
+            aria-label="See this project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Demo
+          </a>
+        </div>
       </div>
       <div class="col-md-2"></div>
     </div>

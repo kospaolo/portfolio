@@ -1,5 +1,6 @@
 // BACKGROUND
 $backgroundColor: #ffffff;
+$mutedBlack: rgba(0, 0, 0, 0.6);
 
 // MARGINS
 $sectionMargin: clamp(5rem, 10vw, 7.5rem);; // 120px
@@ -22,7 +23,7 @@ $logoLetterSpacing: 0.10em;
 
 // HEADLINE
 $headlineFontFamily: "Nunito Sans", sans-serif;
-$primaryHeadlineColor: rgba(0, 0, 0, 0.6);
+$primaryHeadlineColor: $mutedBlack;
 $secondaryHeadlineColor: #1E2247;
 $headlineLetterSpacing: 0.03em;
 $headlineFontSize: clamp(2.5rem, 4vw, 3.125rem); // 50px;
@@ -36,7 +37,7 @@ $subheadlineFontSize: clamp(1rem, 3vw, 1.875rem); // 30px;
 
 // KICKER
 $kickerFontFamily: "Lato Regular", sans-serif;
-$primaryKickerColor: rgba(0, 0, 0, 0.6);
+$primaryKickerColor: $mutedBlack;
 $kickerLetterSpacing: 0.03em;
 $kickerFontSize: clamp(1rem, 2vw, 1.25rem); // 30px;
 
@@ -48,7 +49,7 @@ $textLineHeight: 1.875rem;
 $textColor: #000000;
 
 // BUTTON
-$buttonBorder: 1px solid rgba(0, 0, 0, 0.6);
+$buttonBorder: 1px solid $mutedBlack;
 $buttonTextColor: #000000;
 $buttonFontSize: clamp(1rem, 2vw, 1.25rem); // 20px
 $buttonFontFamily: "Lato Regular", sans-serif;
@@ -60,7 +61,7 @@ $buttonHoverTextColor: #000000;
 $buttonHoverBackgroundColor: #f4f4f4;
 
 // FOOTER
-$footerTextColor: rgba(0, 0, 0, 0.6);
+$footerTextColor: $mutedBlack;
 $footerTextSize: clamp(1rem, 2vw, 1.25rem);
 $footerFontFamily: "Lato Regular", sans-serif;
 $footerLetterSpacing: 0.02em;
