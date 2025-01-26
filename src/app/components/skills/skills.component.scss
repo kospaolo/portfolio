@@ -3,3 +3,15 @@
 .skills-second-section {
   margin-top: $biggestMargin;
 }
+
+.skills-row {
+  @media (max-width: 768px) {
+    gap: $biggestMargin;
+  }
+}
+
+.skills-top-section {
+  @media (max-width: 768px) {
+    margin-top: $biggestMargin;
+  }
+}

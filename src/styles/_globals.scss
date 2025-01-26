@@ -54,6 +54,18 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: $leftPadding;
 }
 
+.left-section, .right-section {
+  @media (max-width: 768px) {
+    padding: unset;
+  }
+}
+
+.image-section {
+  @media (max-width: 768px) {
+    margin-top: 3rem;
+  }
+}
+
 .top-wrapper, .section-wrapper {
   .headline {
     font-family: $headlineFontFamily;
