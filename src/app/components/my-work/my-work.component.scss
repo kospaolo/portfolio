@@ -5,9 +5,13 @@
 }
 
 .project-row {
-  margin-top: $middleMargin;
+  margin-top: clamp(3rem, 5vw, 3.875rem);
 }
 
 .skills-img {
-  width: 100%;
+  width: 90%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }

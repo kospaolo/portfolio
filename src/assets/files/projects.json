@@ -17,5 +17,43 @@
     ],
     "github_link": "https://github.com/kospaolo/invokos",
     "live_demo": ""
+  },
+  {
+    "id": "constructor",
+    "title": "Constructor (Concept)",
+    "kicker": "Your Vision, Our Expertise",
+    "short_description": "A concept for professional construction agency delivering precision and quality in every project.",
+    "description": "Constructor is a concept for a leading construction agency, focused on turning dreams into reality, one brick at a time. With expertise in construction, renovation, and design, this project emphasizes professionalism, dedication, and attention to detail. The vibrant yellow and bold typography convey strength and confidence, mirroring the brand's commitment to excellence.",
+    "media": [
+      {
+        "fullPath": "assets/images/constructor/logo.png",
+        "altText": "Constructor logo"
+      },
+      {
+        "fullPath": "assets/images/constructor/app.png",
+        "altText": "Constructor image"
+      }
+    ],
+    "github_link": "",
+    "live_demo": ""
+  },
+  {
+    "id": "smile",
+    "title": "Smile (Concept)",
+    "kicker": "Bringing Confidence to Every Smile",
+    "short_description": "A concept for a modern dental care service delivering personalized and accessible care.",
+    "description": "Smile is a concept design for a dental service brand, highlighting trust, accessibility, and positivity. The calming blue tones and clean design reflect the ease of accessing professional dental care. Featuring a friendly and welcoming interface, Smile provides users with quick solutions, personalized care, and a seamless experience. The design aims to make dental care approachable and stress-free.",
+    "media": [
+      {
+        "fullPath": "assets/images/smile/logo.png",
+        "altText": "Smile logo"
+      },
+      {
+        "fullPath": "assets/images/smile/app.png",
+        "altText": "Smile image"
+      }
+    ],
+    "github_link": "",
+    "live_demo": ""
   }
 ]
