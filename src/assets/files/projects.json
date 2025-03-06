@@ -19,6 +19,44 @@
     "live_demo": ""
   },
   {
+    "id": "rukazaruku",
+    "title": "RukaZaRuku",
+    "kicker": "Service Exchanging Platform",
+    "short_description": "Community-driven platform that enables local communities to exchange services using in-app tokens",
+    "description": "Our primary objective is to foster local community engagement by facilitating a token-based economy for exchanging services. Users can offer their skills or request services from others, creating a vibrant ecosystem of mutual support and skill-sharing. This project was developed during a 24-hour Hackathon by a team of 4 developers, and emerged as the winner of the competition!",
+    "media": [
+      {
+        "fullPath": "assets/images/rukazaruku/logo.png",
+        "altText": "InvoKos logo"
+      },
+      {
+        "fullPath": "assets/images/rukazaruku/app.png",
+        "altText": "RukaZaRuku image"
+      }
+    ],
+    "github_link": "https://github.com/kospaolo/RukaZaRuku.git",
+    "live_demo": ""
+  },
+  {
+    "id": "cryptourists",
+    "title": "CRYPTOurists",
+    "kicker": "Decentralized booking platform",
+    "short_description": "Enables businesses to list their services and accept cryptocurrency payments, while providing customers with a secure and transparent way to make booking",
+    "description": "CRYPTOurists is a decentralized booking platform built on the Camino blockchain network. It enables businesses to list their services and accept cryptocurrency payments, while providing customers with a secure and transparent way to make bookings. All payments are securely held in the smart contract until the booking is either confirmed or refunded by the administrator. CRYPTOurists is a decentralized booking platform built on the Camino blockchain network. It enables businesses to list their services and accept cryptocurrency payments, while providing customers with a secure and transparent way to make bookings. All payments are securely held in the smart contract until the booking is either confirmed or refunded by the administrator. This project was created during the Decode Antalya Hackathon by a team of 5 developers with no prior blockchain knowledge, earning an impressive 2nd place finish.",
+    "media": [
+      {
+        "fullPath": "assets/images/cryptourists/logo.png",
+        "altText": "CRYPTOurists logo"
+      },
+      {
+        "fullPath": "assets/images/cryptourists/app.jpg",
+        "altText": "CRYPTOurists image"
+      }
+    ],
+    "github_link": "https://github.com/kospaolo/CRYPTOurists",
+    "live_demo": "https://cryptourists.vercel.app/home"
+  },
+  {
     "id": "constructor",
     "title": "Constructor (Concept)",
     "kicker": "Your Vision, Our Expertise",
