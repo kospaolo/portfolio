@@ -3,7 +3,7 @@
     "id": "wedding",
     "title": "Wedding App",
     "kicker": "Wedding Planner App",
-    "short_description": "Smart wedding planning app",
+    "short_description": "A wedding app for countdowns, schedules, digital invitations, guest seating, RSVP confirmations, photo uploads, and sharing memories with guests",
     "description": "The Wedding App helps couples and guests easily manage and access important wedding details. It features a countdown timer to the wedding day, a schedule overview, digital documents such as invitations, menus, and a seating chart with table search and a list of seatmates, RSVP confirmation for multiple guests with email notifications, photo uploads allowing guests to share images directly to Google Drive, and a gallery for viewing uploaded photos",
     "media": [
       {
@@ -22,7 +22,7 @@
     "id": "invokos",
     "title": "InvoKos",
     "kicker": "Invoice Management System",
-    "short_description": "Invoicing solution designed to streamline billing and financial management with ease.",
+    "short_description": "Invoicing solution designed to streamline billing and financial management with ease",
     "description": "Custom invoice management system I developed for personal use, supporting dual languages (English and Croatian). Built with Angular, Node.js, and Firebase, it streamlines invoicing and offer management with features like creating, updating, and deleting invoices/offers, customer management, and generating branded PDFs using jsPDF. While the app can and will be improved, I'm proud that it successfully fulfills its intended purpose. It is responsive, secure, and customizable for business needs.",
     "media": [
       {
@@ -79,7 +79,7 @@
     "id": "constructor",
     "title": "Constructor (Concept)",
     "kicker": "Your Vision, Our Expertise",
-    "short_description": "A concept for professional construction agency delivering precision and quality in every project.",
+    "short_description": "A concept for professional construction agency delivering precision and quality in every project",
     "description": "This construction agency website is designed to stand out and leave a strong impression on business clients and project stakeholders. The bold yellow accents and clean typography give it a confident and professional feel, while the well-organized layout makes it easy to find key information. It’s tailored for professionals in real estate, renovations, and large-scale projects, showcasing the agency’s expertise and reliability.",
     "media": [
       {
@@ -98,7 +98,7 @@
     "id": "smile",
     "title": "Smile (Concept)",
     "kicker": "Bringing Confidence to Every Smile",
-    "short_description": "A concept for a dental care service delivering personalized and accessible care.",
+    "short_description": "A concept for a dental care service delivering personalized and accessible care",
     "description": "Smile is a concept for a dental care website that feels approachable and easy to navigate. It’s designed for individuals and families looking for reliable dental care, with a focus on making services accessible and convenient. The calming blue tones and clean design help build trust, while the layout ensures a smooth and stress-free experience for users. This page highlights how modern design can make healthcare feel personal and welcoming.",
     "media": [
       {
