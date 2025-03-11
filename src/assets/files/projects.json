@@ -1,5 +1,24 @@
 [
   {
+    "id": "wedding",
+    "title": "Wedding App",
+    "kicker": "Wedding Planner App",
+    "short_description": "Smart wedding planning app",
+    "description": "The Wedding App helps couples and guests easily manage and access important wedding details. It features a countdown timer to the wedding day, a schedule overview, digital documents such as invitations, menus, and a seating chart with table search and a list of seatmates, RSVP confirmation for multiple guests with email notifications, photo uploads allowing guests to share images directly to Google Drive, and a gallery for viewing uploaded photos",
+    "media": [
+      {
+        "fullPath": "assets/images/wedding/logo.png",
+        "altText": "Smile logo"
+      },
+      {
+        "fullPath": "assets/images/wedding/app.png",
+        "altText": "Smile image"
+      }
+    ],
+    "github_link": "",
+    "live_demo": ""
+  },
+  {
     "id": "invokos",
     "title": "InvoKos",
     "kicker": "Invoice Management System",
