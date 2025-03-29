@@ -8,15 +8,34 @@
     "media": [
       {
         "fullPath": "assets/images/wedding/logo.png",
-        "altText": "Smile logo"
+        "altText": "Wedding logo"
       },
       {
         "fullPath": "assets/images/wedding/app.png",
-        "altText": "Smile image"
+        "altText": "Wedding image"
       }
     ],
     "github_link": "",
     "live_demo": ""
+  },
+  {
+    "id": "todo",
+    "title": "ToDo App",
+    "kicker": "Your Mind, Organized",
+    "short_description": "A full-stack todo app with authentication, drag-and-drop, due dates, and profile management",
+    "description": "ToDo App is a full-featured productivity app designed to help users manage tasks with ease and flexibility. It includes user registration and login, profile editing (username/password), due dates with overdue highlighting, drag-and-drop sorting, and filters for active, completed, today, or weekly tasks. The app is fully responsive and deployed on a scalable cloud stack using Angular, Node.js, MongoDB Atlas, Render, and Netlify.",
+    "media": [
+      {
+        "fullPath": "assets/images/todo/logo.png",
+        "altText": "ToDo logo"
+      },
+      {
+        "fullPath": "assets/images/todo/app.png",
+        "altText": "ToDo UI screenshot"
+      }
+    ],
+    "github_link": "https://github.com/kospaolo/todo.git",
+    "live_demo": "https://kostodo.netlify.app/"
   },
   {
     "id": "invokos",
