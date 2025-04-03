@@ -97,7 +97,7 @@
   {
     "id": "cryptourists",
     "title": "CRYPTOurists",
-    "kicker": "Decentralized booking platform",
+    "kicker": "Decentralized Booking Platform",
     "short_description": "Enables businesses to list their services and accept cryptocurrency payments, while providing customers with a secure and transparent way to make booking",
     "description": "CRYPTOurists is a decentralized booking platform built on the Camino blockchain network. It enables businesses to list their services and accept cryptocurrency payments, while providing customers with a secure and transparent way to make bookings. All payments are securely held in the smart contract until the booking is either confirmed or refunded by the administrator. This project was created during the Decode Antalya Hackathon by a team of 5 developers with no prior blockchain knowledge, earning an impressive 2nd place finish.",
     "media": [
