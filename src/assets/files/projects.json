@@ -19,6 +19,25 @@
     "live_demo": ""
   },
   {
+    "id": "bookaband",
+    "title": "Book A Band",
+    "kicker": "Band Booking Platform",
+    "short_description": "A web app for booking live bands with availability calendars, booking requests, and band profiles",
+    "description": "Book A Band is a full-stack web app designed to connect users with live music bands for events and gigs. Bands can log in to update their profiles, set their availability via a calendar, and manage booking requests. Users can browse band profiles, check availability, and send booking requests with detailed event info. The app features a role-based system for band members and regular users, availability toggling, and real-time booking status updates.",
+    "media": [
+      {
+        "fullPath": "assets/images/book-a-band/logo.png",
+        "altText": "Book a Band logo"
+      },
+      {
+        "fullPath": "assets/images/book-a-band/app.gif",
+        "altText": "Book a Band image"
+      }
+    ],
+    "github_link": "https://github.com/kospaolo/book-a-band",
+    "live_demo": ""
+  },
+  {
     "id": "todo",
     "title": "ToDo App",
     "kicker": "Your Mind, Organized",
