@@ -1,10 +1,15 @@
 import {Component, inject, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {Project, ProjectsService} from "../../services/projects.service";
+import {NgIf} from "@angular/common";
 
 @Component({
   selector: 'app-project-details',
+  standalone: true,
   templateUrl: './project-details.component.html',
+  imports: [
+    NgIf
+  ],
   styleUrls: ['./project-details.component.scss']
 })
 export class ProjectDetailsComponent implements OnInit {

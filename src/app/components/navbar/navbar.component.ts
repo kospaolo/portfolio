@@ -1,12 +1,17 @@
 import { Component, AfterViewInit, inject } from '@angular/core';
 import { ToastrService } from "ngx-toastr";
+import {RouterLink} from "@angular/router";
 
 declare var bootstrap: any;
 
 @Component({
   selector: 'app-navbar',
+  standalone: true,
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss'],
+  imports: [
+    RouterLink
+  ]
 })
 export class NavbarComponent implements AfterViewInit {
   private toast: ToastrService = inject(ToastrService);
