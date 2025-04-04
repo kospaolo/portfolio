@@ -5,16 +5,8 @@ import {ProjectComponent} from "./pages/project/project.component";
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  {
-    path: 'home',
-    loadComponent: () =>
-      import('./pages/home/home.component').then(m => m.HomeComponent)
-  },
-  {
-    path: 'project/:id',
-    loadComponent: () =>
-      import('./pages/project/project.component').then(m => m.ProjectComponent)
-  },
+  { path: 'home', component: HomeComponent },
+  { path: 'project/:id', component: ProjectComponent },
   { path: '**', redirectTo: '/home' }
 ];
 
